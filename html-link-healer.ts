@@ -1,6 +1,3 @@
-#!/usr/bin/env deno run --allow-read --allow-write
-
-// get DRYRUN from envs
 const DRYRUN = Deno.env.get("DRYRUN") === "true";
 
 const prefix = Deno.args[0] || "";
